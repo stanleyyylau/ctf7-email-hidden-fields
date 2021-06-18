@@ -15,8 +15,8 @@
  * @wordpress-plugin
  * Plugin Name:       Send ctf7 Email With Hidden Fields
  * Plugin URI:        https://antonstudio.com/cf7-email-hidden-fields
- * Description:       Allow you to send copies of contact form7 emails with certain fields hidden
- * Version:           1.0.0
+ * Description:       Allow you to send copies of contact form7 emails with certain fields hidden (beta)
+ * Version:           1.0.1
  * Author:            Anton Studio
  * Author URI:        https://antonstudio.com
  * License:           GPL-2.0+
@@ -92,7 +92,7 @@ if (is_admin()) { // note the use of is_admin() to double check that this is hap
         'api_url' => 'https://api.github.com/repos/stanleyyylau/ctf7-email-hidden-fields', // the GitHub API url of your GitHub repo
         'raw_url' => 'https://raw.github.com/stanleyyylau/ctf7-email-hidden-fields/master', // the GitHub raw url of your GitHub repo
         'github_url' => 'https://github.com/stanleyyylau/ctf7-email-hidden-fields', // the GitHub url of your GitHub repo
-        'zip_url' => 'https://github.com/stanleyyylau/ctf7-email-hidden-fields/archive/refs/heads/master.zip', // the zip url of the GitHub repo
+        'zip_url' => 'https://github.com/stanleyyylau/ctf7-email-hidden-fields/zipball/master', // the zip url of the GitHub repo
         'sslverify' => true, // whether WP should check the validity of the SSL cert when getting an update, see https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/issues/2 and https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/issues/4 for details
         'requires' => '5.7', // which version of WordPress does your plugin require?
         'tested' => '5.7', // which version of WordPress is your plugin tested up to?
